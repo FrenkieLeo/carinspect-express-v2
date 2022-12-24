@@ -1,0 +1,43 @@
+{
+  "name": "wxcloudrun-express",
+  "version": "1.0.0",
+  "description": "微信云托管 express 框架模版",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "blob": "^0.1.0",
+    "Blob": "^0.10.0",
+    "body-parser": "^1.20.0",
+    "connect-history-api-fallback": "^2.0.0",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-formidable": "^1.2.0",
+    "express-json2csv": "^0.3.6",
+    "express-jwt": "^7.7.5",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.0",
+    "iconv-lite": "^0.6.3",
+    "json2csv": "^5.0.7",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "multiparty": "^4.2.3",
+    "multiparty-express": "^0.1.9",
+    "mysql2": "^2.3.2",
+    "nodemon": "^2.0.19",
+    "nt-connect-multiparty": "^1.0.3",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "sequelize": "^6.8.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
